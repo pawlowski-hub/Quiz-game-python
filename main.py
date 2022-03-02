@@ -8,8 +8,7 @@ for index in range(0, len(question_data)):
     new_q_text = question_data[index]["question"]
     new_q = Question(new_q_text, new_q_answer)
     question_bank.append(new_q)
-    # print(question_bank[index].text, question_bank[index].answer)
-# print(question_bank)
+    
 
 category = question_data[0]["category"]
 difficulty = question_data[0]["difficulty"].capitalize()
